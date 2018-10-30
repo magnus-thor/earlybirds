@@ -81,7 +81,7 @@ test: &test
 production:
   <<: *default
   database: earlybirds_production
-  username: earlybirds
+  username: deploy
   password: <%= ENV['EARLYBIRDS_DATABASE_PASSWORD'] %>
 
 cucumber:
