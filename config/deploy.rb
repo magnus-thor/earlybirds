@@ -2,7 +2,7 @@
 lock "~> 3.11.0"
 
 # config/deploy.rb
-set :rvm_type, :auto #:user or :system, depends on your rbenv setup
+set :rvm_type, :auto #:user or :system
 set :rvm_ruby_string, '2.5.1'
 
 

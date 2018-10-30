@@ -72,9 +72,6 @@ GEM
     capistrano-rails (1.4.0)
       capistrano (~> 3.1)
       capistrano-bundler (~> 1.1)
-    capistrano-rbenv (2.1.4)
-      capistrano (~> 3.1)
-      sshkit (~> 1.3)
     capistrano3-puma (3.1.1)
       capistrano (~> 3.7)
       capistrano-bundler
@@ -291,6 +288,8 @@ GEM
     ruby_parser (3.11.0)
       sexp_processor (~> 4.9)
     rubyzip (1.2.2)
+    rvm-capistrano (1.5.0)
+      capistrano (>= 2.15.4)
     safe_yaml (1.0.4)
     sass (3.6.0)
       sass-listen (~> 4.0.0)
@@ -385,7 +384,6 @@ DEPENDENCIES
   capistrano-env-config
   capistrano-passenger
   capistrano-rails (~> 1.3)
-  capistrano-rbenv (~> 2.1, >= 2.1.1)
   capistrano3-puma (~> 3.1, >= 3.1.1)
   chromedriver-helper
   coffee-rails (~> 4.2)
@@ -407,6 +405,7 @@ DEPENDENCIES
   rails (~> 5.2.1)
   rest-client
   rspec-rails
+  rvm-capistrano
   sass-rails (~> 5.0)
   selenium-webdriver
   shoulda-matchers
@@ -424,4 +423,4 @@ RUBY VERSION
    ruby 2.5.1p57
 
 BUNDLED WITH
-   1.16.2
+   1.16.6
